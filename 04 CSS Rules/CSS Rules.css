@@ -1,0 +1,44 @@
+body {
+  font-family: Arial;
+  font-weight: normal;
+  background-color: #c9cdd3;
+}
+h1 {
+  color: black;
+  font-weight: bold;
+  font-size: 30px
+}
+h2 {
+  color: black;
+  font-weight: bold;
+  font-size: 20px
+}
+h3 {
+  color: black;
+  font-weight: bold;
+  font-size: 15px
+}
+p {
+  font-weight: lighter;
+}
+i {
+  font-style: italic;
+}
+b {
+  font-weight: bold;
+}
+table {
+  border: thin solid black;
+  background-color: #a8aeb5;
+}
+fieldset {
+  background-color: #a8aeb5;
+}
+a:link {
+  color: black;
+  font-weight: bold;
+}
+a:visited {
+  color: blue;
+  font-weight: lighter;
+}
