@@ -1,7 +1,7 @@
 body {
-  font-family: Arial;
+  font-family: fira sans;
   font-weight: normal;
-  background-color: #c9cdd3;
+  background-color: #89bcac;
 }
 h1 {
   color: black;
@@ -28,11 +28,12 @@ b {
   font-weight: bold;
 }
 table {
-  border: thin solid black;
-  background-color: #a8aeb5;
+  border-style: dotted;
+  border-width: thick;
+  background-color: #eaeaea;
 }
 fieldset {
-  background-color: #a8aeb5;
+  background-color: #eaeaea;
 }
 a:link {
   color: black;
