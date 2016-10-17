@@ -1,0 +1,10 @@
+body{
+  font-family: "fira-sans",sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+a{
+  color: red;
+  text-decoration: none;
+}
