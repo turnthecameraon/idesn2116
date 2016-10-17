@@ -48,7 +48,7 @@ html, body {
 
 body {
     background: white;
-    color: #222;
+    color: #6d6d6d;
     font-family: sans-serif
 }
 
@@ -544,7 +544,7 @@ h4 .star {
 }
 
 .posting .postingtitle {
-    font-family: "Bitstream Vera Serif", "Times New Roman", serif;
+    font-family: "Helvetica", sans-serif;
     font-size: 1.4em;
     font-weight: bold;
     line-height: 1.4em;
@@ -714,7 +714,7 @@ h4 .star {
 }
 
 #postingbody {
-    font-family: "Bitstream Vera Serif", "Times New Roman", serif
+    font-family: "helvetica", sans-serif;
 }
 
 #postingbody p {
