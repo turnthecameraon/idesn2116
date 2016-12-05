@@ -1,0 +1,51 @@
+body {
+    background-color: #fff ;
+    font-family: 'Oswald', sans-serif;
+}
+
+header, nav, div, section, footer {
+/*    border: 2px solid #d00 ;*/
+}
+
+header p {
+    text-transform: uppercase ;
+    font-weight: 700 ;
+    font-size: 1.65em ;
+}
+
+nav { 
+    float: left ;
+    width: 15.3% ;
+    margin-left: 3.6% ;
+}
+
+nav #primary_nav ul {
+    list-style-type: none ;
+}
+
+section {
+    float: right ;
+    width: 79.1% ;
+    margin-left: 1.1% ;
+    overflow-x: scroll ;
+    margin-bottom: 3em ;
+
+}
+section article {
+    display: table-cell ;
+}
+section article img.float_left_image {
+    float: left ;
+    margin-right: 3.5em ;
+    margin-bottom: .7em ;
+}
+section article p.photo_caption {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 0.8em ;
+    font-style: italic ;
+
+}
+
+footer {
+    clear: both ;
+}
