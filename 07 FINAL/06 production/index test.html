@@ -1,0 +1,151 @@
+<html>
+<head>
+  <style type="text/css">
+    body {
+        font-family: Helvetica ;
+        line-height: 1.5em ;
+    }
+    .rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    }
+
+    .rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+    }
+
+    .rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+    }
+
+    .rslides img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    border: 0;
+    }
+
+    .header {
+      padding-left: 50px;
+      padding-top: 50px;
+    }
+    h1 {
+      font-family: helvetica, sans-serif;
+      font-size: 15px;
+      font-weight: bold;
+      display: inline-block;
+    }
+    h2 {
+      font-family: helvetica, sans-serif;
+      font-size: 15px;
+      font-weight: normal;
+      display: inline-block;
+    }
+    span.resume  {
+      padding-left: 500px;
+    }
+    span.about, span.contact{
+      padding-left: 50px;
+    }
+    a:link {
+      color: black;
+      text-decoration: none;
+    }
+    a.hover:hover {
+  font-style: italic;
+    }
+    a:active {
+
+    }
+    a:visited {
+      color: black;
+      text-decoration: none;
+    }
+    .cycle-slideshow {
+      width: 100%
+    }
+    .cycle-slideshow img {
+      width: 25%;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="header">
+  <h1><A href="index.html">William Fletcher</h1>&nbsp;
+  <h2>design</a><span class="resume"><a class="hover" href="resume.html">resume</a></span>&nbsp;<span class="about"><a class="hover" href="about.html">about</a></span>&nbsp;<span class="contact"><a class="hover" href="contact.html">contact</a><span></h2>
+  </div>
+
+  <div class="cycle-slideshow"
+    data-cycle-fx=carousel
+     data-cycle-timeout=1000
+     data-cycle-carousel-visible=3
+     data-cycle-auto-height=container>
+      <img src="images/1.jpg"/>
+      <img src="images/2.jpg"/>
+      <img src="images/3.jpg"/>
+      <img src="images/4.jpg"/>
+      <img src="images/5.jpg"/>
+      <img src="images/6.jpg"/>
+      <img src="images/7.jpg"/>
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="http://malsup.github.io/jquery.cycle2.js"></script>
+
+  <script src="http://malsup.github.io/min/jquery.cycle2.carousel.min.js"></script>
+
+  <script>
+    $(function() {
+      $(".rslides").responsiveSlides();
+    });
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+<!--
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="ResponsiveSlides/responsiveslides.min.js"></script>
+
+  <ul class="rslides">
+    <li><img src="images/1.jpg"></li>
+    <li><img src="images/2.jpg"></li>
+    <li><img src="images/3.jpg"></li>
+    <li><img src="images/4.jpg"></li>
+    <li><img src="images/5.jpg"></li>
+    <li><img src="images/6.jpg"></li>
+    <li><img src="images/7.jpg"></li>
+    <li><img src="images/8.jpg"></li>
+    <li><img src="images/9.jpg"></li>
+    <li><img src="images/10.jpg"></li>
+    <li><img src="images/11.jpg"></li>
+    <li><img src="images/12.jpg"></li>
+  </ul>
+
+    <script>
+      $(function() {
+        $(".rslides").responsiveSlides();
+      });
+    </script>
+</body>
+</html> -->
