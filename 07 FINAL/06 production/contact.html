@@ -27,20 +27,35 @@
       font-weight: normal;
       display: inline-block;
     }
-    span.rightalign {
+    span.resume  {
       padding-left: 500px;
     }
+    span.about, span.contact{
+      padding-left: 50px;
+    }
+    a:link {
+      color: black;
+      text-decoration: none;
+    }
+    a.hover:hover {
+  font-style: italic;
+    }
+    a:active {
+
+    }
+    a:visited {
+      color: black;
+      text-decoration: none;
+    }
+
   </style>
 </head>
 
 <body>
-
-<div class="header">
-<h1>William Fletcher</h1>&nbsp;
-<h2>design<span class="rightalign">resume&nbsp;about&nbsp;contact<span></h2>
-
-
-</div>
+  <div class="header">
+  <h1><A href="index.html">William Fletcher</h1>&nbsp;
+  <h2>design</a><span class="resume"><a class="hover" href="resume.html">resume</a></span>&nbsp;<span class="about"><a class="hover" href="about.html">about</a></span>&nbsp;<span class="contact"><a class="hover" href="contact.html">contact</a><span></h2>
+  </div>
 
 
   <script src="https://cdn.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
